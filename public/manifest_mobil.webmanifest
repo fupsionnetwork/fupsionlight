@@ -1,0 +1,58 @@
+{
+  "name": "Fupsion Dual Perception",
+  "short_name": "Fupsion",
+  "scope": "/",
+  "start_url": "/app",
+  "display": "standalone",
+  "background_color": "#F0EEF5",
+  "theme_color": "#000",
+  "orientation": "portrait",
+  "description": "Una experiencia para un cambio de Conducta durante del sueño",
+  "$schema": "1",
+  "icons": [
+    {
+      "src": "pwaicons/icons/android/48x48-icon.png",
+      "type": "image/png",
+      "sizes": "48x48",
+      "purpose": "any"
+    },
+    {
+      "src": "pwaicons/icons/android/72x72-icon.png",
+      "type": "image/png",
+      "sizes": "72x72",
+      "purpose": "any"
+    },
+    {
+      "src": "pwaicons/icons/android/96x96-icon.png",
+      "type": "image/png",
+      "sizes": "96x96",
+      "purpose": "any"
+    },
+    {
+      "src": "pwaicons/icons/android/144x144-icon.png",
+      "type": "image/png",
+      "sizes": "144x144",
+      "purpose": "any"
+    },
+    {
+      "src": "pwaicons/icons/android/192x192-icon.png",
+      "type": "image/png",
+      "sizes": "192x192",
+      "purpose": "any"
+    },
+    {
+      "src": "pwaicons/icons/android/512x512-icon.png",
+      "type": "image/png",
+      "sizes": "512x512",
+      "purpose": "any"
+    } 
+  ],
+    "file_handlers": [{
+      "action": "/",
+      "accept": {
+        "image/png": [".png"],
+        "image/jpg": [".jpg",".jpeg"]
+      },
+      "launch_type": "single-client"
+    }]
+}
