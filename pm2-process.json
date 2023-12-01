@@ -1,0 +1,9 @@
+{
+    "script": "next start",
+    "watch": true,
+    "ignore_watch":null,
+    "watch_options": {
+        "followSymlinks": false
+    },
+    "name": "FUPSIONLIGHT_PM2_PROCESS"
+}
